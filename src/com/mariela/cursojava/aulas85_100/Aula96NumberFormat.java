@@ -19,13 +19,16 @@ public class Aula96NumberFormat {
 		String num = nf.format(100.99);
 		System.out.println(num);
 
-		Locale br = new Locale("pt", "Brazil");
+		Locale br = new Locale("pt", "Brazil");		
 		nf = NumberFormat.getInstance(br);
 		num = nf.format(100.99);
 		System.out.println(num);
 
 		// MOEDA
 		NumberFormat moeda = NumberFormat.getCurrencyInstance(Locale.getDefault());
+
+		System.out.printf("Locale Default %s:",Locale.getDefault());
+		System.out.println();
 
 		String valor = moeda.format(100.99);
 		System.out.println(valor);
