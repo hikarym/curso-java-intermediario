@@ -47,7 +47,7 @@ Repositório do Curso de Java com Loiane Groner
     - String: modificando uma String (substring, concat, replace, trim)
     - String: modificando letras maiúsculas/minúsculas (toLowerCase, toUpperCase)
     - String: juntando e separando String (join, split)
-    concatenação com StringBuilder e StringBuffer
+    - concatenação com StringBuilder e StringBuffer
     - String Tokenizer
 
 5.- Classes Utilitárias (Datas, Locale, Math)
